@@ -14,7 +14,7 @@ const updateProps = () => {
   for (let block of blocks) {
     i += 1;
     let top = blocks[i].getBoundingClientRect().top;
-    if (top < window.innerHeight * 1.5 && top > window.innerHeight * -1.5) {
+    if (top < window.innerHeight * 2 && top > window.innerHeight * -2) {
       body.style.setProperty(`--yBlock-${i + 1}`, top);
     } else {
       body.style.setProperty(`--yBlock-${i + 1}`, 0);
