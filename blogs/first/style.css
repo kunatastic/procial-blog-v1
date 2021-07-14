@@ -1,0 +1,150 @@
+html,
+body {
+  height: 100%;
+  color: #252424;
+  background-color: #f0e8e8;
+}
+.toggle-button {
+  position: fixed;
+  z-index: 15;
+  top: 20px;
+  height: 38px;
+  right: 20px;
+  width: 38px;
+  background-color: #fff;
+  padding: 0;
+}
+.toggle-button .fa-arrows-alt {
+  display: none;
+}
+.sidebar {
+  height: 100%;
+  min-height: 400px;
+  width: 0px;
+  background-color: #20304f;
+  color: #b8b8b8;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.sidebar.active {
+  z-index: 10;
+  width: 200px;
+}
+.sidebar .profile,
+.sidebar .nav {
+  min-width: 200px;
+}
+.sidebar .profile {
+  padding: 50px 20px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.sidebar .profile > span {
+  display: block;
+}
+.sidebar .profile .owner {
+  font-weight: bold;
+}
+.sidebar .profile .roll {
+  color: rgba(247, 247, 247, 0.5);
+}
+.sidebar .nav {
+  list-style: none;
+}
+.sidebar .nav li {
+  margin-bottom: 10px;
+}
+.sidebar .nav li.active a {
+  color: #f7f7f7;
+  border-left: 2px solid #779ad7;
+}
+.sidebar .nav li a {
+  height: 42px;
+  line-height: 42px;
+  display: block;
+  color: #7090c8;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 2px solid transparent;
+  padding: 0 0 0 24px;
+}
+.sidebar .nav li a .fa {
+  margin-right: 20px;
+}
+.sidebar .nav li a:hover,
+.sidebar .nav li a:focus {
+  color: #f7f7f7;
+  outline: none;
+}
+.sidebar .settings {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 24px;
+  color: #7090c8;
+}
+.sidebar .settings:hover,
+.sidebar .settings:focus {
+  color: #f7f7f7;
+  outline: none;
+}
+@media screen and (min-width: 550px) {
+  body {
+    margin-left: 200px;
+    transition: 0.3s ease;
+  }
+  body.non-margin {
+    margin-left: 0px !important;
+    transition: 0.3s ease;
+  }
+  .toggle-button .fa-bars {
+    display: none;
+  }
+  .toggle-button .fa-arrows-alt {
+    display: block;
+  }
+  .sidebar {
+    z-index: 10;
+    width: 200px;
+  }
+  .sidebar.active {
+    width: 0px;
+  }
+}
+article {
+  margin: 100px 0;
+}
+article p {
+  line-height: 1.9em;
+}
+article .media {
+  text-align: center;
+}
+article .media span {
+  color: #aeaeae;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+article .media img {
+  width: 100%;
+}
+article .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+article .subtitle {
+  color: #aeaeae;
+}
+article .post-data {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #d9d9d9;
+  float: right;
+  padding: 50px;
+}
