@@ -163,13 +163,7 @@ article .post-data {
 .flex {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-}
-
-.taskbar-flex {
-  /* align-items: flex-start; */
-  justify-content: space-between;
-  margin: 2em 0;
+  align-items: center;
 }
 
 ul {
@@ -208,8 +202,9 @@ nav .flex {
 }
 
 nav .links {
-  width: 20vw;
+  width: 30vw;
   flex-direction: row;
+  margin-top: 1em;
 }
 
 nav .column .flex {
