@@ -130,6 +130,20 @@ body {
 .block:nth-child(7) .item-parallax-media img {
   transform: translateY(calc(var(--yBlock-7) * 0.1px));
 }
+.block:nth-child(8) .item-parallax-content {
+  transform: translateY(calc(var(--yBlock-8) * 0.5px));
+}
+
+.block:nth-child(8) .item-parallax-media img {
+  transform: translateY(calc(var(--yBlock-8) * 0.1px));
+}
+.block:nth-child(9) .item-parallax-content {
+  transform: translateY(calc(var(--yBlock-9) * 0.5px));
+}
+
+.block:nth-child(9) .item-parallax-media img {
+  transform: translateY(calc(var(--yBlock-9) * 0.1px));
+}
 
 .flex-container {
   display: flex;
@@ -267,10 +281,17 @@ body {
 .img-gridItem:nth-child(even) img {
   transform: translateX(calc(var(--yBlock-4) * 0.03%));
 }
-.img-gridItem:nth-child(odd) .img-caption h2 {
+.img-gridItem:nth-child(odd) .feature img {
+  transform: translateX(calc(var(--yBlock-8) * -0.03%));
+}
+.img-gridItem:nth-child(even) .feature img {
+  transform: translateX(calc(var(--yBlock-8) * 0.03%));
+}
+
+.img-gridItem:nth-child(odd) .img-caption .head-small {
   text-align: right;
 }
-.img-gridItem:nth-child(even) .img-caption h2 {
+.img-gridItem:nth-child(even) .img-caption .head-small {
   text-align: left;
 }
 
@@ -402,7 +423,9 @@ ul {
 .road-head {
   height: 10vh;
 }
-
+.feature {
+  height: auto;
+}
 .road-container {
   height: auto;
   padding: 20vh 0;
