@@ -288,10 +288,10 @@ body {
   transform: translateX(calc(var(--yBlock-8) * 0.03%));
 }
 
-.img-gridItem:nth-child(odd) .img-caption .head-small {
+.img-gridItem:nth-child(odd) .img-caption .head-smallh {
   text-align: right;
 }
-.img-gridItem:nth-child(even) .img-caption .head-small {
+.img-gridItem:nth-child(even) .img-caption .head-smallh {
   text-align: left;
 }
 
