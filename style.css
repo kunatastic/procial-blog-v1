@@ -140,8 +140,8 @@ body {
 }
 
 .head-large {
-  margin-bottom: 5vw;
-  font-size: 10vw;
+  margin-bottom: 2vw;
+  font-size: 9rem;
   line-height: 1.2em;
   font-family: "Inknut Antiqua", serif;
   color: white;
@@ -149,7 +149,7 @@ body {
 
 .head-small {
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.2em;
   font-family: "Roboto Condensed", sans-serif;
   color: white;
@@ -253,6 +253,7 @@ body {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
 .img-gridItem.type-left img {
   margin-right: auto;
 }
@@ -267,11 +268,12 @@ body {
   transform: translateX(calc(var(--yBlock-4) * 0.03%));
 }
 .img-gridItem:nth-child(odd) .img-caption h2 {
-  text-align: left;
-}
-.img-gridItem:nth-child(even) .img-caption h2 {
   text-align: right;
 }
+.img-gridItem:nth-child(even) .img-caption h2 {
+  text-align: left;
+}
+
 .img-gridItem .img-caption p {
   text-align: justify;
 }
@@ -354,13 +356,12 @@ body {
   justify-content: space-between;
   margin: 2em 0;
 }
-
+/* 
 ul {
   list-style-type: none;
-}
+} */
 
-.custom-properties-ftw .container .links .column a,
-nav li {
+.custom-properties-ftw .container .links .column a {
   font-family: "Roboto ", sans-serif;
   text-decoration: none;
   color: rgb(207, 206, 206);
@@ -372,9 +373,6 @@ nav li {
   padding: 0.25em 0;
 }
 
-nav.custom-properties-ftw .container .links .column li {
-  padding: 0.25em 0;
-}
 .custom-properties-ftw .container .links .column h1 {
   font-family: "Roboto ", sans-serif;
   color: white;
@@ -383,8 +381,7 @@ nav.custom-properties-ftw .container .links .column li {
   text-decoration: underline;
 }
 
-.custom-properties-ftw .logo,
-nav .logo {
+.custom-properties-ftw .logo {
   font-size: 1.2em;
   font-family: "Roboto ", sans-serif;
   color: #fff;
@@ -395,23 +392,9 @@ nav .logo {
   width: 80px;
 }
 
-nav .flex {
-  justify-content: space-between;
-  height: 5vh;
-  backdrop-filter: blur(20px);
-  z-index: -2;
-  background-color: transparent;
-}
-
-nav .links {
-  width: 30vw;
-  flex-direction: row;
-}
-
-nav .column .flex {
-  flex-direction: column;
-}
-
-nav {
-  background-color: #0d232a;
+.break-line {
+  /* content: "A" !important; */
+  /* display: block !important; */
+  margin-bottom: 1em !important;
+  /* background-color: #0d232a !important; */
 }
