@@ -11,13 +11,16 @@
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
       crossorigin="anonymous"
     ></script>
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:600|Roboto|Roboto+Condensed:700"
     />
+
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/navigation.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/card.css" />
     <link rel="stylesheet" href="./assets/css/roadmap.css" />
   </head>
   <body>
@@ -33,13 +36,12 @@
       </nav>
     </div>
 
-    <div class="logo-head"><p>Procial</p></div>
+    <div class="logo-head"><a href="#">Procial</a></div>
     <div class="open-overlay">
       <span class="bar-top"></span>
       <span class="bar-middle"></span>
       <span class="bar-bottom"></span>
     </div>
-
     <main class="content js-content">
       <section class="block section-landing">
         <figure class="item-parallax-media">
@@ -102,58 +104,74 @@
       </section>
 
       <section class="block fourth">
-        <div class="item-parallax-content flex-container img-grid">
-          <figure class="img-gridItem type-right">
-            <img
-              src="https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg"
-              alt=""
-            />
-            <figcaption class="img-caption">
-              <h2 class="head-super-small">Users</h2>
-              <p class="copy copy-white">
+        <div class="cards-container">
+          <div class="blog-card">
+            <div class="meta">
+              <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div>
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Users</h1>
+              <p>
                 Reward based engagement to share the earnings with each and
                 every user of the platform.
-                <br class="break-line" />
+              </p>
+              <p>
                 Get access to exclusive content of your favourite creators with
                 specialized social tokens.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-left">
-            <img
-              src="https://image.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg"
-              alt=""
-            />
-            <figcaption class="img-caption">
-              <h2 class="head-super-small">Creators</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="meta">
+              <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg);
+                "
+              ></div>
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Creators</h1>
+              <p>
                 A place for content Creators and Influencers to create their
-                channel for multiple earning opportunities.<br
-                  class="break-line"
-                />
-                Earn reward tokens and advertising rewards for their content.<br
-                  class="break-line"
-                />
+                channel for multiple earning opportunities.
+              </p>
+              <p>
+                Earn reward tokens and advertising rewards for their content.
+              </p>
+              <p>
                 Rewards are directly proportional to the value of their content
                 contribution.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-right">
-            <img
-              src="https://image.freepik.com/free-vector/character-illustration-people-with-analog-tv-icons_53876-43096.jpg"
-              alt=""
-            />
-            <figcaption class="img-caption">
-              <h2 class="head-super-small">Companies</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/character-illustration-people-with-analog-tv-icons_53876-43096.jpg);
+                "
+              ></div>
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Companies</h1>
+              <p>
                 Branding opportunities for companies to engage with their
-                following.<br class="break-line" />
+                following.
+              </p>
+              <p>
                 Advertising over non-fungible digital lands with greater
                 community interaction.
               </p>
-            </figcaption>
-          </figure>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -362,99 +380,126 @@
       </section>
 
       <section class="block dark fifth">
-        <div class="item-parallax-content flex-container img-grid">
-          <figure class="img-gridItem feature type-right">
-            <!-- <img
-              src="https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg"
-              alt=""
-            /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Feed</h2>
-              <p class="copy copy-white">
+        <div class="cards-container">
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Feed</h1>
+              <p>
                 Post your work and thoughts to contribute to the community and
                 earn throughout the process.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-left">
-            <!-- <img
-              src="https://image.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg"
-              alt=""
-            /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Networking</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Networking</h1>
+              <p>
                 Network with people with similar interests to create an
                 effective following for greater earning of PRX tokens.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-right">
-            <!-- <img
-              src="https://image.freepik.com/free-vector/character-illustration-people-with-analog-tv-icons_53876-43096.jpg"
-              alt=""
-            /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Blogging</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Blogging</h1>
+              <p>
                 Write valuable content and blogs for greater reach and
                 contribute to the platform.
               </p>
-            </figcaption>
-          </figure>
-
-          <figure class="img-gridItem type-left">
-            <!-- <img
-              src="https://image.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg"
-              alt=""
-            /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Chats</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Chats</h1>
+              <p>
                 Chat with your network with end to end encryption and no
                 surveillance.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-right">
-            <!-- <img
-              src="https://image.freepik.com/free-vector/character-illustration-people-with-analog-tv-icons_53876-43096.jpg"
-              alt=""
-            /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Channels</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Channels</h1>
+              <p>
                 Create your own token and interact effectively with your fans
                 earning and rewarding at the same time.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-left">
-            <!-- <img
-              src="https://image.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg"
-              alt=""
-              /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Social Tokens</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Social Tokens</h1>
+              <p>
                 The power of cryptocurrency granted to each creator and
                 influencer joining the platform.
               </p>
-            </figcaption>
-          </figure>
-          <figure class="img-gridItem type-right">
-            <!-- <img
-                src="https://image.freepik.com/free-vector/character-illustration-people-with-analog-tv-icons_53876-43096.jpg"
-                alt=""
-              /> -->
-            <figcaption class="img-caption">
-              <h2 class="head-small">Wallets</h2>
-              <p class="copy copy-white">
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+              <!-- <div
+                class="photo"
+                style="
+                  background-image: url(https://image.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_74855-8307.jpg);
+                "
+              ></div> -->
+            </div>
+            <div class="description">
+              <h1 class="head-super-small">Wallets</h1>
+              <p>
                 Decentralized wallet for each stakeholder with very low
                 transaction fee.
               </p>
-            </figcaption>
-          </figure>
+            </div>
+          </div>
         </div>
       </section>
 

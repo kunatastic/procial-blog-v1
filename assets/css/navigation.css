@@ -27,12 +27,13 @@ Navigation
   height: 4em;
   z-index: 100;
   font-size: 1.2em;
-  color: var(--nav-color-3);
   width: 100%;
   /* background-color: rgba(0, 0, 0, 0.75); */
 }
 
-.logo-head p {
+.logo-head a {
+  color: #fff;
+  text-decoration: none;
   position: fixed;
   left: 12vw;
   top: 1.2em;

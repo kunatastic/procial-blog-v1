@@ -28,6 +28,7 @@ html {
   /* background-color: var(--primary-color); */
   color: var(--primary-font);
   font-family: "Roboto ", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .block {
