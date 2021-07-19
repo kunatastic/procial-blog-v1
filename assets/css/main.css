@@ -1,8 +1,5 @@
 .content {
   height: 100%;
-  /* overflow-y: auto; */
-  -webkit-clip-path: border-box;
-  clip-path: border-box;
   transform: translateZ(0);
   z-index: 2;
 }
@@ -138,6 +135,9 @@
   background-color: var(--primary-font);
   z-index: 3;
   transform: translateY(-13vw);
+}
+
+.section-landing::after {
 }
 
 .section-landing .item-parallax-media {
