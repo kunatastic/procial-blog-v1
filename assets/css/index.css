@@ -37,7 +37,39 @@ html {
   height: 100vh;
 }
 
-content.block:nth-child(odd),
-content.block:nth-child(even) {
-  background-color: orange;
+.taskbar {
+  height: 50vh;
+  background-color: #12105c;
+}
+
+.taskbar .logo img {
+  height: 100px;
+  width: 55px;
+}
+
+.container {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1em 2em;
+  /* background-color: pink; */
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskbar .taskbar-flex {
+  justify-content: space-between;
+}
+
+.taskbar .logo {
+  color: #f1f1f1;
+}
+
+.copy-right {
+  color: var(--primary-color);
+  padding: 2em 0;
 }
