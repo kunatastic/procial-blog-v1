@@ -38,7 +38,6 @@ html {
 }
 
 .taskbar {
-  height: 50vh;
   background-color: #12105c;
 }
 
@@ -63,13 +62,55 @@ html {
 
 .taskbar .taskbar-flex {
   justify-content: space-between;
+  height: 40vh;
 }
 
-.taskbar .logo {
+.taskbar .logo a {
   color: #f1f1f1;
+  text-decoration: none;
 }
 
 .copy-right {
   color: var(--primary-color);
   padding: 2em 0;
+  font-weight: 100;
+}
+
+.taskbar-links {
+  width: 40%;
+  /* background: #000; */
+}
+
+.taskbar .taskbar-links {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.taskbar-links a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+}
+
+.taskbar li {
+  text-align: center;
+  padding: 5px 0;
+}
+.column .task-title {
+  font-size: 1.4em;
+  text-align: center;
+  color: var(--nav-color-5);
+  letter-spacing: 0.2em;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .taskbar-flex {
+    flex-direction: column;
+  }
+  .taskbar-links {
+    width: 100%;
+  }
 }
