@@ -17,8 +17,6 @@
   padding: 0;
   overflow: hidden;
   color: #e6ecf3;
-  /* background: linear-gradient(190deg, #1f1821, #14181b); */
-  /* background: linear-gradient(to bottom, #111, #222); */
   background: linear-gradient(
     to top,
     #000 10%,
@@ -121,8 +119,9 @@
 .roadmap-timeframe:nth-child(3n-1) .roadmap-swirly path {
   animation-delay: -4s;
 }
+
 .roadmap-timeframe:first-child {
-  width: 40vw;
+  /* width: 40vw; */
   margin-top: -42.5px;
 }
 
@@ -159,7 +158,7 @@
 
 .roadmap-timeframe:nth-child(even) .roadmap-event::before {
   order: 2;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
 }
 
 .roadmap-timeframe:nth-child(even) .roadmap-swirly {
@@ -252,6 +251,7 @@
   position: relative;
   z-index: 1;
   padding: 20px 0;
+  /* background-color: orange; */
 }
 .roadmap-event::before {
   content: "";
