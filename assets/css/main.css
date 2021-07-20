@@ -322,6 +322,11 @@ ul {
   width: 54px;
 }
 
+.logo-head img {
+  height: 50px;
+  width: 27px;
+}
+
 .break-line {
   /* content: "A" !important; */
   /* display: block !important; */
